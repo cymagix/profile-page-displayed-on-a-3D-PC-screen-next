@@ -1,6 +1,6 @@
 # profile-page-displayed-on-a-3D-PC-screen
 
-![Image](./Screen Recording 2022-01-08 at 14.18.46.gif)
+![Image](./img.gif)
 
  - [Next.js](https://nextjs.org/)
  - [Three.js](https://threejs.org/)
