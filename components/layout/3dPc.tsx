@@ -31,7 +31,8 @@ const Model: React.FC = (props) => {
       ref={group} 
       dispose={null}
       onClick={(e)=>{
-        setIsOpen(!isOpen);
+        // setIsOpen(!isOpen);
+        setIsOpen(true);
         e.stopPropagation();
       }}
       {...props}
