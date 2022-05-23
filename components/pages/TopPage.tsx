@@ -16,12 +16,12 @@ export const TopPage: React.FC = () => {
     <div className="flex justify-center bg-white">
     <div className="w-full border-l border-r">
         <div>
-            <img src="https://pbs.twimg.com/profile_banners/1477275683315646470/1641617464/1500x500" />
+            <img src="https://pbs.twimg.com/profile_banners/1477275683315646470/1653292637/1500x500" />
         </div>
         
         <div className="flex justify-between">
         <div className="rounded-full border-4 border-white inline-block -mt-16 w-32 ml-3">
-            <img className="w-32 rounded-full" src="https://pbs.twimg.com/profile_images/1479677004178145287/vk2nKgff_400x400.jpg" />
+            <img className="w-32 rounded-full" src="https://pbs.twimg.com/profile_images/1501404892292091904/wDV1rE1V_400x400.jpg" />
         </div>
         
         <div>
@@ -31,12 +31,12 @@ export const TopPage: React.FC = () => {
         
         <div className="ml-3">
         <p className="font-bold text-lg">Masaki Yoshiiwa</p>
-        <p className="text-gray-500">@masaiborg</p>
+        <p className="text-gray-500">@cymagix</p>
         </div>
         
         <div className="px-3 mt-3">
         <p>
-            Frontend developer
+            Software developer
         </p>
         </div>
         
@@ -49,14 +49,14 @@ export const TopPage: React.FC = () => {
         <div className="flex items-center ml-3">
             <LinkIcon className="w-5" />
             <p className="ml-2">
-                <a className="text-blue-500 hover:underline" target="_blank" rel="noopener" href="https://github.com/masaiborg">github.com</a>
+                <a className="text-blue-500 hover:underline" target="_blank" rel="noopener" href="https://github.com/cymagix">github.com</a>
             </p>
         </div>
         
-        <div className="flex items-center ml-3">
+        {/* <div className="flex items-center ml-3">
             <CalendarIcon className="w-5" />
             <p className="ml-2">Born Feb 1993</p>
-        </div>
+        </div> */}
         </div>
         
         <div className="px-3 mt-3 flex">
@@ -87,12 +87,12 @@ export const TopPage: React.FC = () => {
                 <div className="mt-2">
                 <div className="flex">
                     <div>
-                    <img className="w-16 rounded-full" src="https://pbs.twimg.com/profile_images/1479677004178145287/vk2nKgff_400x400.jpg" />
+                    <img className="w-16 rounded-full" src="https://pbs.twimg.com/profile_images/1501404892292091904/wDV1rE1V_400x400.jpg" />
                     </div>
 
                     <div className="ml-4">
                     <p>
-                        <span className="font-bold">Masaki Yoshiiwa</span> <span className="text-gray-500">@masaiborg · Feb 12</span>
+                        <span className="font-bold">Masaki Yoshiiwa</span> <span className="text-gray-500">@cymagix · Feb 2</span>
                     </p>
 
                     <p>
@@ -101,13 +101,13 @@ export const TopPage: React.FC = () => {
                     </div>
                 </div>
                 
-                <a className="flex flex-1 rounded-lg border ml-14 mt-3 cursor-pointer"  target="_blank" rel="noopener" href="https://github.com/masaiborg">
+                <a className="flex flex-1 rounded-lg border ml-14 mt-3 cursor-pointer"  target="_blank" rel="noopener" href="https://github.com/cymagix">
                     <div className="flex justify-center items-center py-8 px-12 bg-gray-100 border-r">
                     <NewspaperIcon className="w-6" />
                     </div>
                     
                     <div className="flex-1 flex flex-col justify-center py-8 pr-16 pl-4">
-                    <p>masaiborg(Masaki Yoshiiwa)</p>
+                    <p>cymagix(Masaki Yoshiiwa)</p>
                     <p className="text-gray-500">Masaki Yoshiiwa</p>
                     <p className="text-gray-500 flex"><LinkIcon className="w-4" />github.com</p>
                     </div>
