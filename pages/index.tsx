@@ -4,7 +4,7 @@ import { TopPage } from '../components/pages/TopPage'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <>
       <Head>
         <title>Masaki Yoshiiwa (@cymagix)</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,6 +12,6 @@ export default function Home() {
       <PcCanvas>
         <TopPage />
       </PcCanvas>
-    </div>
+    </>
   )
 }

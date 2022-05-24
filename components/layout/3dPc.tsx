@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { Suspense, useEffect, useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Html, Environment, useGLTF, ContactShadows, OrbitControls, SpotLight } from '@react-three/drei'
 import { GLTF } from 'three-stdlib';
 import { useSpring } from '@react-spring/core'
@@ -15,6 +15,8 @@ const Model: React.FC = (props) => {
   const group = useRef() as any
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const spring = useSpring({ open: Number(isOpen), config: { duration: 500 } })
+  // Responsive
+  const { viewport } = useThree()
   // Load model
   const { nodes, materials } = useGLTF('/mac-draco.glb') as DreiGLTF
   // Make it float
@@ -33,6 +35,7 @@ const Model: React.FC = (props) => {
     <group
       ref={group} 
       dispose={null}
+      scale={(viewport.width / 18)}
       {...props}
     >
       <AnimatedtThree.group rotation-x={spring.open.to([0, 1], [1.575, -0.425])} position={[0, -0.04, 0.41]}>
