@@ -35,7 +35,7 @@ const Model: React.FC = (props) => {
     <group
       ref={group} 
       dispose={null}
-      scale={(viewport.width / 18)}
+      scale={(viewport.width / 20)}
       {...props}
     >
       <AnimatedtThree.group rotation-x={spring.open.to([0, 1], [1.575, -0.425])} position={[0, -0.04, 0.41]}>
